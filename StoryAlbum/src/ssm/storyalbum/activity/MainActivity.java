@@ -23,6 +23,12 @@ public class MainActivity extends Activity {
     	Log.i(TAG, "onResume()"); 
     }
 
+    @Override
+    protected void onDestroy() {
+    	// TODO Auto-generated method stub
+    	super.onDestroy();
+    	Log.i(TAG, "onDestroy()");  
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
