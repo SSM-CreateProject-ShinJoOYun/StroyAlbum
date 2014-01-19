@@ -36,15 +36,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.ShelvesActivity"
-            android:label="@string/app_name" 
-            android:theme="@style/Theme.Shelves">
-        </activity>
+        
+        <activity android:name=".activity.ShelvesActivity"></activity>
         
         <provider
             android:name=".provider.AlbumsProvider"
             android:authorities="storyalbum.shelves" />
+        
+        
     </application>
 
 </manifest>
