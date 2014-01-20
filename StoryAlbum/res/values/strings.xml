@@ -19,5 +19,7 @@
     <string name="menu_item_check_label">check</string>
     <string name="menu_item_search_label">search</string>
     <string name="menu_item_settings_label">setting</string>
+    <string name="viewpager_title1">my shelf</string>
+    <string name="viewpager_title2">share shelf</string>
 
 </resources>
