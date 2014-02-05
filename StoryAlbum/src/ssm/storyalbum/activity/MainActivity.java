@@ -50,6 +50,10 @@ public class MainActivity extends Activity {
 				Intent i = new Intent(MainActivity.this, ShelvesActivity.class);
 				startActivity(i);
 				break;
+			case R.id.btn_goCamera:
+				Intent i1 = new Intent(MainActivity.this, ShelvesActivity.class);
+				startActivity(i1);
+				break;
 
 			default:
 				break;

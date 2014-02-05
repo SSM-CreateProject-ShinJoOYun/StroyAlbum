@@ -9,6 +9,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Shelves"/>
+    
+    <Button 
+        android:id="@+id/btn_goCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Camera"/>
 
     
 
